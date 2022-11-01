@@ -5,6 +5,7 @@ header {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     overflow: hidden;
+    color: var(--text-color);
 
     @media (min-width: 1500px) {
         max-width: 1500px;
@@ -63,7 +64,7 @@ header {
 
     .headerSVG {
         opacity: 0;
-        transform: scale(1.4);
+        transform: scale(1.2);
     }
 
     @media (max-width: 768px) {
